@@ -1,0 +1,62 @@
+// micro part start
+
+#microsoft{
+    padding: 50px 0;
+    background-color: #f1f1f1;
+    .micro_img{
+        
+        img{
+            border-color: none !important;
+            width: 100%;
+        }
+    }
+    .micro_text{
+        span{
+           text-transform: uppercase;
+           font-family: 'Raleway', sans-serif;
+           font-weight: 600;
+        }
+        h2{
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            color: #de4644;
+            font-size: 28px;
+            padding-bottom: 10px;
+        }
+    }
+    .micro_main{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 27px;
+        #demo1{
+            padding: 5px 30px;
+            border: 2px solid #222 !important;
+            color: #222;
+            font-size: 30px;
+            border-radius: 3px;
+            line-height: 83px;
+          }
+          #demo2{
+            padding: 30px 40px;
+            border: 2px solid #222 !important;
+            color: #222;
+            font-size: 30px;
+            border-radius: 3px;
+          }
+          #demo3{
+            padding: 30px 28px;
+            border: 2px solid #222 !important;
+            color: #222;
+            font-size: 30px;
+            border-radius: 3px;
+          }
+          #demo4{
+            padding: 30px 30px;
+            border: 2px solid #222 !important;
+            color: #222;
+            font-size: 30px;
+            border-radius: 3px;
+          }
+    }
+}

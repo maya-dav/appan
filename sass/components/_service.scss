@@ -1,0 +1,46 @@
+// service part start
+
+#service{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    background-color: #f1f1f1;
+    .ser_text{
+        text-align: center;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        span{
+            color: #222;
+            font-size: 20px; 
+            i{
+                font-size: 25px;
+            }
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+    .ser_text_two{
+        text-align: center;
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        span{
+            color: #222;
+            font-size: 20px; 
+            i{
+                font-size: 25px;
+            }
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+    .ser_main{
+       &:hover span{
+        color: #de4644;
+       }
+   }
+}
+// service part end

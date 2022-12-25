@@ -1,0 +1,29 @@
+#shopping{
+    padding: 80px 0;
+    position: relative;
+    .shop_img{
+        width: 100%;
+    }
+    .shop_text{
+        width: 697px;
+        height: 420px;
+        background-color: rgb(25 25 25 / 83%);
+        position: absolute;
+        content: "";
+        top: 123px;
+        right: 112px;
+        .text_lorem{
+            margin-top: 36px;
+            p{
+                color: #ffffffd1;
+                width: 500px;
+                margin-left: 100px;
+                font-family: justify;
+                padding-bottom: 8px;
+                line-height: 27px;
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+            } 
+        }
+    }
+}

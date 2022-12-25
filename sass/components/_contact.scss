@@ -1,0 +1,68 @@
+#form{
+    padding: 60px 0;
+    .input_box_name{
+        h5{
+            font-family: 'Raleway', sans-serif;
+            padding-bottom: 15px;
+        }
+        input{
+            padding: 5px 10px;
+            width: 480px;
+        }
+    }
+    .input_box_phone{
+        margin-top: 10px;
+        input{
+            padding: 5px 10px;
+            width: 480px;
+        }
+    }
+    .textarea_message{
+        position: relative;
+        margin-top: 10px;
+        textarea{
+            padding: 5px 10px;
+            width: 100%;
+        }
+        i{
+            position: absolute;
+            top: 95px;
+            right: 13px;
+            color: #fff;
+            font-size: 20px;
+            z-index: 1;
+        }
+        .shape{
+            position: absolute;
+            content: '';
+            right: 1px;
+            bottom: 6px;
+            width: 80px;
+            height: 80px;
+            background-color: #de4644;
+            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        }
+    }
+    .site_box{
+        h5{
+            font-family: 'Raleway', sans-serif;
+            padding-bottom: 15px;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            line-height: 27px;
+            font-size: 17px;
+            font-family: justify;
+        }
+    }
+    .foot_main{
+        margin-top: -7px;
+        p{
+            color: #222;
+            i{
+                color: #de4644;
+            }
+        }
+    }
+    
+}

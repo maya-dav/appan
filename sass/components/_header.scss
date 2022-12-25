@@ -1,0 +1,63 @@
+// header part start
+  #header{
+    background-color: #444444;
+    .topwrapper{
+      overflow: hidden;
+    }
+    .header_text{
+      width: 165px;
+      float: left;
+      a{
+        display: block;
+        float: left;
+        padding: 15px;
+        color: #ffffffed;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+      }
+      a:nth-child(2){
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+      }
+      a:first-child{
+        border-left: 1px solid #ddd;
+      }
+    }
+    .phone{
+      width: 720px;
+      float: left;
+      color: #ffffffed;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      padding: 15px 0;
+      margin-left: 15px;
+    }
+    .social{
+      width: 396px;
+      float: left;
+      a{
+        display: block;
+        float: left;
+        padding: 15px;
+        color: #ffffffed;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+      }
+      a:nth-child(2){
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+      }
+      a:last-child{
+        border-right: 1px solid #ddd;
+      }
+      &:hover i{
+        color: red;
+      }
+    }
+  }
+// header part end

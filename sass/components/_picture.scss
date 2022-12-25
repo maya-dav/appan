@@ -1,0 +1,73 @@
+// picture part start
+
+#picture{
+    padding: 60px 0;
+    .pic_img{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .pic_overlay{
+            position: absolute;
+            content: '';
+            top: 266px;
+            left: 25px;
+            width: 88%;
+            height: 36%;
+            background-color: rgba(0, 0, 0, 0.562);
+            .boxes{
+                margin-top: 20px;
+                h4{
+                    font-family: 'Raleway', sans-serif;
+                }
+                p{
+                    text-transform: capitalize;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                }
+            }  
+            .radius_btn{
+                a{
+                   padding: 10px 10px !important;
+                   border: 1px solid #fff;
+                   color: #fff;
+                   font-family: 'Open Sans', sans-serif;
+                   border-radius: 3px !important;
+                   -webkit-border-radius: 3px !important;
+                   -moz-border-radius: 3px !important;
+                   -ms-border-radius: 3px !important;
+                   -o-border-radius: 3px !important;
+                   transition: 0.5s;
+                   -webkit-transition: 0.5s;
+                   -moz-transition: 0.5s;
+                   -ms-transition: 0.5s;
+                   -o-transition: 0.5s;
+                   &:hover{
+                    background-color: #de4644 !important;
+                    border: 1px solid transparent;
+                   }
+                }
+            } 
+       }
+       .one{
+        position: absolute;
+        content: '';
+        top: 38px;
+        left: -33px;
+        p{
+            padding: 2px 55px;
+            background-color: #fff;
+            color: #de4644;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            transform: rotate(-50deg);
+            -webkit-transform: rotate(-50deg);
+            -moz-transform: rotate(-50deg);
+            -ms-transform: rotate(-50deg);
+            -o-transform: rotate(-50deg);
+}
+       }
+   }
+}
+// picture part end

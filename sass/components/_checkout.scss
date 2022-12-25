@@ -1,0 +1,174 @@
+#checkout{
+    padding: 80px 0;
+    .form_head{
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 12px 0;
+        h6{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            color: red;
+            b{
+                color: #222;
+                font-weight: 600;
+            }
+            span{
+                font-size: 12px;
+                color: #999;
+            }
+        }
+    }
+    .input_box_main{
+        margin-top: 23px;
+        input{
+            border: 1px solid #ddd;
+            width: 100%;
+            padding: 5px 10px;
+        }
+    }
+    .input_box_main_one{
+        margin-top: 10px;
+        input{
+            border: 1px solid #ddd;
+            width: 480px;
+            padding: 5px 10px;
+        }
+    }
+    .input_box_main_two{
+        margin-top: 10px;
+        input{
+            border: 1px solid #ddd;
+            width: 100%;
+            padding: 5px 10px;
+        }
+    }
+    .input_box_main_three{
+        margin-top: 10px;
+        input{
+            border: 1px solid #ddd;
+            width: 100%;
+            padding: 5px 10px;
+        }
+    }
+    .maya{
+        margin-top: 10px;
+        .accordion-item{
+             margin-top: 10px;
+             border-top: 1px solid #ddd;
+        }   
+    }
+    .input_box_main_four{
+        margin-top: 10px;
+        textarea{
+            border: 1px solid #ddd;
+            width: 100%;
+            padding: 5px 10px;
+        }
+    }
+    .subtotal_box{
+        border: 1px solid #ddd;
+        .sub_one{
+            border-bottom: 1px solid #ddd;
+            h6{
+               padding: 10px 7px;
+            }
+        }
+        .sub_two{
+            border-bottom: 1px solid #ddd;
+            p{
+                padding-top: 20px;
+                padding-left: 7px;
+                padding-bottom: 6px;
+                line-height: 0px;
+                span{
+                   margin-left: 130px;
+                }
+            }
+        }
+        .sub_three{
+            border-bottom: 1px solid #ddd;
+            p{
+                padding-top: 20px;
+                padding-left: 7px;
+                padding-bottom: 6px;
+                line-height: 0px;
+                span{
+                   margin-left: 130px;
+                }
+            }
+        }
+        .sub_four{
+            border-bottom: 1px solid #ddd;
+            p{
+                padding-top: 20px;
+                padding-left: 7px;
+                padding-bottom: 6px;
+                line-height: 0px;
+                span{
+                   margin-left: 130px;
+                }
+            }
+        }
+        .sub_five{
+            border-bottom: 1px solid #ddd;
+            p{
+                padding-top: 20px;
+                padding-left: 7px;
+                padding-bottom: 6px;
+                line-height: 0px;
+                span{
+                   margin-left: 130px;
+                }
+            }
+        }
+    }
+    .payment{
+        margin-top: 30px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        p{
+            padding-top: 20px;
+            padding-left: 7px;
+            padding-bottom: 6px;
+            line-height: 0px;
+        }
+    }
+    .payment_checkout{
+        margin-top: 20px;
+        input{
+            
+        }
+        p{
+            color: #999;
+            margin-top: 10px;
+        }
+    }
+    .payment_checkout_one{
+        margin-top: 5px;
+    }
+    .payment_checkout_two{
+        margin-top: 30px;
+        a{
+            color: #fff;
+            width: 113px;
+            height: 40px;
+            background-color: #de4644;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                background-color: aquamarine;
+                color: #222;
+            }
+        }
+    }
+}

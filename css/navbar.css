@@ -1,0 +1,64 @@
+.menu-bg {
+  background-color: gray !important;
+  padding: 20px 0;
+}
+.menu-bg ul li a {
+  padding: 0 20px !important;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.menu-bg ul li a:hover {
+  color: red !important;
+}
+.menu-bg ul li a::after {
+  position: absolute;
+  content: "";
+  left: 21px;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: red;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.menu-bg ul li a:hover::after {
+  opacity: 1;
+  width: calc(100% - 43px);
+}
+.menu-bg .search_btn a {
+  color: black;
+  font-size: 20px;
+  margin-left: -56px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.menu-bg .search_btn a:hover {
+  color: red;
+}
+.menu-bg .box_item a {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: black;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.menu-bg .box_item a:hover {
+  color: red;
+}

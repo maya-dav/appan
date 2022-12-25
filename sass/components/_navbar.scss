@@ -1,0 +1,109 @@
+// navbar part start
+
+.menu-bg{
+    background-color: #fff !important;
+    padding: 20px 0;
+    ul{
+        li{
+            a{
+               padding: 0 20px !important;
+               font-family: 'Raleway', sans-serif;
+               position: relative;
+               font-weight: 500;
+               font-size: 20px;
+               transition: 0.5s;
+               -webkit-transition: 0.5s;
+               -moz-transition: 0.5s;
+               -ms-transition: 0.5s;
+               -o-transition: 0.5s;
+               &:hover{
+                  color: red !important;
+               } 
+               &::after{
+                position: absolute;
+                content: '';
+                left: 21px;
+                bottom: -6px;
+                width: 0;
+                height: 2px;   
+                background: red;
+                opacity: 0;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+               }
+               &:hover::after{
+                opacity: 1;
+                width: calc(100% - 43px);
+               }
+              
+           }
+           
+        }
+    }
+    .search_btn{
+        a{
+            color: black;
+            font-size: 20px;
+            margin-left: -56px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                color: red;
+            }
+        }
+    }
+    .box_item{
+        a{
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            color: red;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                color: #222;
+            }
+        }
+    }
+}
+
+
+.search_btn{
+    position: relative;
+}
+.inputbox {
+    width: 0px;
+    position: absolute;
+    top: -3px;
+    right: 12px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border: 2px solid transparent;
+}
+.bg{
+    width: 200px;
+    border: 2px solid #222;
+}
+.search_btn i{
+    position: absolute;
+    top: 50%;
+    right: 19px;
+    font-size: 18px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+// navbar part end

@@ -1,0 +1,127 @@
+// blog part start
+
+#blog{
+    padding: 30px 0;
+    .blog_text{
+        h3{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+        }
+        img{
+            width: 18%;
+        }
+    }
+    .blog_img{
+        position: relative;
+        &:hover .blog_overlay{
+            opacity: 1;
+            height: 100%;
+        }
+        img{
+            width: 100%;
+        }
+        .blog_overlay{
+           position: absolute;
+           content: '';
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 0%;
+           background-color: rgba(0, 0, 0, 0.614);
+           opacity: 0;
+           transition: 0.5s;
+           -webkit-transition: 0.5s;
+           -moz-transition: 0.5s;
+           -ms-transition: 0.5s;
+           -o-transition: 0.5s;
+             i{
+              position: absolute;
+              content: '';
+              color: #fff;
+              width: 40px;
+              height: 40px;
+              border: 1px solid #fff;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+              text-align: center;
+              line-height: 40px;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -webkit-transform: translate(-50%, -50%);
+              -moz-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              -o-transform: translate(-50%, -50%);
+              transition: 0.5s;
+              -webkit-transition: 0.5s;
+              -moz-transition: 0.5s;
+              -ms-transition: 0.5s;
+              -o-transition: 0.5s;
+              &:hover{
+                background-color: #de4644;
+                border: 1px solid transparent;
+              }
+            }
+            .rendom_box{
+                p{
+                    position: absolute;
+                    content: '';
+                    top: 14px;
+                    left: 56px;
+                    color: rgba(255, 255, 255, 0.812);
+                    i{
+                       border: none;
+                       background-color: transparent;
+                       margin-left: -74px;
+                       color: rgba(255, 255, 255, 0.812);
+                    }
+                }
+            }
+            .round_box{
+                span{
+                    position: absolute;
+                    content: '';
+                    left: 50px;
+                    bottom: 13px;
+                    color: rgba(255, 255, 255, 0.812);
+                    i{
+                        border: none;
+                        background-color: transparent;
+                        margin-left: -161px;
+                        color: rgba(255, 255, 255, 0.812);
+                    }
+                }
+            }
+        }
+    }
+    .blog_img_text{
+        &:hover h6{
+            color: red;
+        }
+        margin-top: 20px;
+        span{
+            color: #222;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            
+        }
+        p{
+            padding-top: 20px;
+            // padding-bottom: 10px;
+        }
+        h6{
+            i{
+                margin-top: 5px;
+                font-weight: 700;
+            }
+        }
+    }
+    .fjkgfg{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,90 @@
+/* footer part start */
+
+#footer{
+    background-color: #353535;
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+  .foot_item {
+    margin-top: 13px;
+  }
+  .foot_item h6{
+    text-transform: uppercase;
+    color: #dddddd;
+  }
+  .foot_main {
+    color: #dddddd;
+    margin-top: 33px;
+    transition: 0.5s;
+  }
+  .foot_main i:hover{
+    color: red;
+  }
+  .foot_main1 {
+    color: #dddddd;
+    margin-top: 38px;
+  }
+  .foot_3nd {
+    margin-left: 50px;
+  }
+  .foot_main2{
+    margin-top: 35px;
+  }
+  .foot_main2 input{
+    background-color: transparent !important;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+  }
+  .foot_main2 button {
+    padding: 4px 10px;
+    background-color: red;
+    color: #fff;
+    margin-left: -10px;
+    border-color: transparent;
+    transition: 0.5s;
+  }
+  .foot_main2 button:hover{
+    background-color: greenyellow;
+    color: #222;
+  }
+  .foot_item1{
+    margin-top: 40px;
+  }
+  .foot_item1 h6{
+    text-transform: uppercase;
+    color: #dddddd;  
+  }
+  .icon{
+    margin-top: 30px;
+  }
+  .icon i{
+    margin: 0 8px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #222;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.5s;
+  }
+  .icon i:hover{
+    background-color: red;
+    color: #fff;
+    transform: translateY(-10px);
+  }
+  /* footer part end */
+  
+  /*  */
+  #copy{
+    background-color: #555555;
+    padding-top: 8px;
+    padding-bottom: 0px;
+  }
+  .copy_text{
+    color: #dddddd;
+  }
+  .copy_text span{
+    color: red;
+  }
+  /*  */

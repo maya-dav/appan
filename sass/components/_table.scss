@@ -1,0 +1,271 @@
+#table_box{
+    padding: 80px 0;
+    tbody{
+        position: relative;
+        tr{
+            td{
+                .table_main{
+                    position: absolute;
+                    display: flex;
+                    width: 355px;
+                    top: 0;
+                    left: 94px;
+                    .starrr{
+                        position: absolute;
+                        top: 24px;
+                        i{
+                            color: #de4644;
+                            font-size: 14px;
+                        }
+                    }
+                    .single_item{
+                        position: absolute;
+                        top: 50px;
+                    }
+                }
+                .table_main_one{
+                    position: relative;
+                    p{
+                        position: absolute;
+                        display: flex;
+                        width: 136px;
+                        top: -76px;
+                        left: 87px;
+                    }
+                    .starrr_one{
+                        position: absolute;
+                        top: -53px;
+                        left: 85px;
+                        i{
+                            color: #de4644;
+                            font-size: 14px;
+                        }
+                    }
+                    .single_item_one{
+                        position: absolute;
+                        top: -30px;
+                        left: 85px;
+                    }
+                }
+                .table_main_two{
+                    position: relative;
+                    p{
+                        position: absolute;
+                        display: flex;
+                        width: 81px;
+                        top: -76px;
+                        left: 87px;
+                    }
+                    .starrr_two{
+                        position: absolute;
+                        top: -53px;
+                        left: 85px;
+                        i{
+                            color: #de4644;
+                            font-size: 14px;
+                        }
+                    }
+                    .single_item_two{
+                        position: absolute;
+                        top: -30px;
+                        left: 85px;
+                    }
+                }
+                .table_main_three{
+                    position: relative;
+                    p{
+                        position: absolute;
+                        display: flex;
+                        width: 169px;
+                        top: -76px;
+                        left: 87px;
+                    }
+                    .starrr_three{
+                        position: absolute;
+                        top: -53px;
+                        left: 85px;
+                        i{
+                            color: #de4644;
+                            font-size: 14px;
+                        }
+                    }
+                    .single_item_three{
+                        position: absolute;
+                        top: -30px;
+                        left: 85px;
+                    }
+                }
+                .dolar_one{
+                    position: relative;
+                    margin-top: 35px;
+                    p{   
+                        position: absolute;
+                        content: '';
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        -o-transform: translate(-50%, -50%);
+                    }
+                }
+                .remove_main{
+                    position: relative;
+                    margin-top: 35px;
+                    i{
+                        position: absolute;
+                        content: '';
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        -o-transform: translate(-50%, -50%);
+                        transition: 0.5s;
+                        -webkit-transition: 0.5s;
+                        -moz-transition: 0.5s;
+                        -ms-transition: 0.5s;
+                        -o-transition: 0.5s;
+                        &:hover{
+                            color: #de4644;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    table{
+        thead{
+            tr{
+                th{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .site_box{
+        .site_text{
+            h5{
+                font-family: 'Raleway', sans-serif;
+                padding-bottom: 10px;
+            }
+        }
+        .input_main{
+            position: relative;
+            input{
+                border: 1px solid #ddd !important;
+                padding: 5px;
+            }
+            .input_btn{
+                a{
+                    padding: 6px 39px;
+                    background-color: #de4644;
+                    color: #fff;
+                    position: absolute;
+                    top: 0;
+                    left: 192px;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    &:hover{
+                        background-color: aqua;
+                        color: #666;
+                    }
+                }
+            }
+        }
+        .subtotal_box{
+            margin-top: 40px;
+            border: 1px solid #ddd;
+            .sub_one{
+                border-bottom: 1px solid #ddd;
+                h6{
+                   padding: 10px 7px;
+                }
+            }
+            .sub_two{
+                border-bottom: 1px solid #ddd;
+                p{
+                    padding-top: 20px;
+                    padding-left: 7px;
+                    padding-bottom: 6px;
+                    line-height: 0px;
+                    span{
+                       margin-left: 130px;
+                    }
+                }
+            }
+            .sub_three{
+                border-bottom: 1px solid #ddd;
+                p{
+                    padding-top: 20px;
+                    padding-left: 7px;
+                    padding-bottom: 6px;
+                    line-height: 0px;
+                    span{
+                       margin-left: 130px;
+                    }
+                }
+            }
+            .sub_four{
+                border-bottom: 1px solid #ddd;
+                p{
+                    padding-top: 20px;
+                    padding-left: 7px;
+                    padding-bottom: 6px;
+                    line-height: 0px;
+                    span{
+                       margin-left: 130px;
+                    }
+                }
+            }
+            .sub_five{
+                border-bottom: 1px solid #ddd;
+                p{
+                    padding-top: 20px;
+                    padding-left: 7px;
+                    padding-bottom: 6px;
+                    line-height: 0px;
+                    span{
+                       margin-left: 130px;
+                    }
+                }
+            }
+        }
+        .lastt_btn{
+            margin-top: 20px;
+            a{
+                width: 140px;
+                height: 46px;
+                border: 1px solid #222;
+                text-align: center;
+                color: #222;
+                margin: 0 5px;
+                line-height: 46px;
+                font-family: 'Raleway', sans-serif;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                border-radius: 10px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+                &:hover{
+
+                    background-color: #de4644;
+                    color: #fff;
+                    border: 1px solid transparent;
+                }
+            }
+        }
+    }
+
+}
+

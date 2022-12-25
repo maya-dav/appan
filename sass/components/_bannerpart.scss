@@ -1,0 +1,25 @@
+#bannerpart{
+    .banner_main{
+        .banner_img{
+            padding: 60px 0;
+            .banner_text{
+                h4{
+                    text-transform: uppercase;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 400;
+                    padding-bottom: 5px;
+                }
+                h6{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 400;
+                    i{
+                        font-size: 10px;
+                    }
+                    span{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
